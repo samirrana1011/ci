@@ -7,4 +7,4 @@ before_script:
 
 script:
   - cd application/tests
-  - vendor/bin/phpunit
+  - ../../vendor/bin/phpunit --coverage-text
