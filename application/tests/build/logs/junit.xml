@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="CodeIgniter Application Test Suite" tests="5" assertions="5" errors="0" failures="0" skipped="0" time="0.070005">
+    <testsuite name="EmailTest" file="C:\xampp\htdocs\tt\application\tests\Email_test.php" tests="2" assertions="2" errors="0" failures="0" skipped="0" time="0.021001">
+      <testcase name="testAddNumber" class="EmailTest" file="C:\xampp\htdocs\tt\application\tests\Email_test.php" line="8" assertions="1" time="0.012000"/>
+      <testcase name="testConfigItem" class="EmailTest" file="C:\xampp\htdocs\tt\application\tests\Email_test.php" line="19" assertions="1" time="0.009001"/>
+    </testsuite>
+    <testsuite name="Welcome_test" file="C:\xampp\htdocs\tt\application\tests\controllers\Welcome_test.php" tests="3" assertions="3" errors="0" failures="0" skipped="0" time="0.049004">
+      <testcase name="test_index" class="Welcome_test" file="C:\xampp\htdocs\tt\application\tests\controllers\Welcome_test.php" line="13" assertions="1" time="0.022002"/>
+      <testcase name="test_method_404" class="Welcome_test" file="C:\xampp\htdocs\tt\application\tests\controllers\Welcome_test.php" line="19" assertions="1" time="0.018001"/>
+      <testcase name="test_APPPATH" class="Welcome_test" file="C:\xampp\htdocs\tt\application\tests\controllers\Welcome_test.php" line="25" assertions="1" time="0.009001"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
